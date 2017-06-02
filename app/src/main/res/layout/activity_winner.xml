@@ -3,7 +3,7 @@
     <data>
         <variable
             name="activity"
-            type="charlie.showmethemoney.PlayActivity"/>
+            type="charlie.showmethemoney.WinnerActivity"/>
     </data>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -20,20 +20,23 @@
             android:text="@string/winner"
             android:textAlignment="center"
             android:textSize="32sp"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:id="@+id/textWhoIsWinner"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="7"
             android:scaleType="fitCenter"
-            android:src="@drawable/c6"/>
+            android:src="@drawable/c6"
+            android:id="@+id/imageWinner"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_gravity="center"
-            android:text="@string/back"/>
+            android:text="@string/back"
+            android:id="@+id/btnBack"/>
     </LinearLayout>
 </layout>
