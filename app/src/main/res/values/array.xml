@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>개코</item>
+        <item>이센스</item>
+        <item>창모</item>
+        <item>저스디스</item>
+        <item>스윙스</item>
+        <item>매드클라운</item>
+        <item>로꼬</item>
+        <item>지코</item>
+    </string-array>
+</resources>
